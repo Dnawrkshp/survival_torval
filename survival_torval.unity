@@ -6683,6 +6683,112 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &41213132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41213133}
+  - component: {fileID: 41213134}
+  m_Layer: 0
+  m_Name: Reactor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &41213133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41213132}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1658455379}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &41213134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41213132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32132a504c77a14697d0acbfb840f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mob: 9
+  Variant: 0
+  Behavior: 0
+  Attributes: 0
+  BlipType:
+    HasOverride: 0
+    OverrideValue: 0
+  SpecialRoundOnly: 0
+  MinRound: 16
+  MaxSpawnedAtOnce: 1
+  MaxSpawnedPerRound: 0
+  Probability: 0.0005
+  SpawnType: 0
+  CooldownTicks: 0
+  CooldownOffsetPerRoundFactor: 0
+  SizeMultiplier: 1
+  TurnSpeedMultiplier: 1
+  RangedAttackDistance:
+    HasOverride: 0
+    OverrideValue: 0
+  Xp:
+    HasOverride: 1
+    OverrideValue: 10000
+  Bolts:
+    HasOverride: 1
+    OverrideValue: 16500
+  Damage:
+    HasOverride: 1
+    OverrideValue: 12
+  DamageMax:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageScale:
+    HasOverride: 1
+    OverrideValue: 1.1
+  Speed:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedMax:
+    HasOverride: 1
+    OverrideValue: 9
+  SpeedScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Health:
+    HasOverride: 1
+    OverrideValue: 300
+  HealthMax:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthScale:
+    HasOverride: 0
+    OverrideValue: 0
+  BaseColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  GlowColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  SpriteColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &41577499
 GameObject:
   m_ObjectHideFlags: 0
@@ -8254,6 +8360,112 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &51042918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 51042919}
+  - component: {fileID: 51042920}
+  m_Layer: 0
+  m_Name: Swarmer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &51042919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51042918}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1658455379}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &51042920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51042918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32132a504c77a14697d0acbfb840f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mob: 1
+  Variant: 0
+  Behavior: 0
+  Attributes: 0
+  BlipType:
+    HasOverride: 0
+    OverrideValue: 0
+  SpecialRoundOnly: 0
+  MinRound: 0
+  MaxSpawnedAtOnce: 0
+  MaxSpawnedPerRound: 0
+  Probability: 1
+  SpawnType: 3
+  CooldownTicks: 0
+  CooldownOffsetPerRoundFactor: 0
+  SizeMultiplier: 1
+  TurnSpeedMultiplier: 1
+  RangedAttackDistance:
+    HasOverride: 0
+    OverrideValue: 0
+  Xp:
+    HasOverride: 1
+    OverrideValue: 10
+  Bolts:
+    HasOverride: 1
+    OverrideValue: 165
+  Damage:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageMax:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Speed:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedMax:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Health:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthMax:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthScale:
+    HasOverride: 0
+    OverrideValue: 0
+  BaseColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  GlowColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  SpriteColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &51540826
 GameObject:
   m_ObjectHideFlags: 0
@@ -9046,6 +9258,12 @@ MonoBehaviour:
   HidePrestigeMachineEvery25Rounds: 1
   RandomizeWeaponPickupsAtStart: 1
   AmmoDropProbability: 0
+  MobDropProbability: 0.01
+  MobDropCooldownSecondsMin: 10
+  MobDropCooldownSecondsMax: 60
+  MobAllowedArea: {fileID: 575187457}
+  MobSpawnPoints: {fileID: 804014688}
+  ReactorMinionMobName: 
   Mobs:
   - Name: Reactor
     Disabled: 0
@@ -9495,9 +9713,6 @@ MonoBehaviour:
     SpriteColor:
       HasOverride: 0
       OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-  MobAllowedArea: {fileID: 575187457}
-  MobSpawnPoints: {fileID: 804014688}
-  ReactorMinionMobName: 
   SpecialRounds: []
   Gambits:
   - Name: Easy Mode
@@ -9510,6 +9725,7 @@ MonoBehaviour:
     DisableBank: 0
     DisablePrestigeMachine: 0
     DisableStackables: 0
+    DisableStores: 0
     InstantRespawnMysteryBox: 0
     DifficultyMultiplier: 0.5
     XpMultiplier: 2
@@ -9532,6 +9748,7 @@ MonoBehaviour:
     DisableBank: 0
     DisablePrestigeMachine: 0
     DisableStackables: 0
+    DisableStores: 0
     InstantRespawnMysteryBox: 0
     DifficultyMultiplier: 2
     XpMultiplier: 0.5
@@ -9553,6 +9770,7 @@ MonoBehaviour:
     DisableBank: 0
     DisablePrestigeMachine: 0
     DisableStackables: 0
+    DisableStores: 0
     InstantRespawnMysteryBox: 0
     DifficultyMultiplier: 1
     XpMultiplier: 1
@@ -9574,6 +9792,7 @@ MonoBehaviour:
     DisableBank: 0
     DisablePrestigeMachine: 0
     DisableStackables: 0
+    DisableStores: 0
     InstantRespawnMysteryBox: 0
     DifficultyMultiplier: 1
     XpMultiplier: 1
@@ -9595,6 +9814,7 @@ MonoBehaviour:
     DisableBank: 0
     DisablePrestigeMachine: 0
     DisableStackables: 0
+    DisableStores: 0
     InstantRespawnMysteryBox: 0
     DifficultyMultiplier: 1
     XpMultiplier: 1
@@ -9617,6 +9837,7 @@ MonoBehaviour:
     DisableBank: 0
     DisablePrestigeMachine: 0
     DisableStackables: 0
+    DisableStores: 0
     InstantRespawnMysteryBox: 0
     DifficultyMultiplier: 1
     XpMultiplier: 1
@@ -9639,6 +9860,7 @@ MonoBehaviour:
     DisableBank: 0
     DisablePrestigeMachine: 0
     DisableStackables: 0
+    DisableStores: 0
     InstantRespawnMysteryBox: 0
     DifficultyMultiplier: 1
     XpMultiplier: 1
@@ -9661,6 +9883,7 @@ MonoBehaviour:
     DisableBank: 0
     DisablePrestigeMachine: 0
     DisableStackables: 1
+    DisableStores: 1
     InstantRespawnMysteryBox: 0
     DifficultyMultiplier: 1
     XpMultiplier: 1
@@ -9720,6 +9943,29 @@ MonoBehaviour:
     Probability: 0.3
   - Item: 0
     Probability: 1
+  Stores:
+  - Name: Store
+    Disabled: 0
+    Pages:
+    - Name: Items
+      TexId: 63
+      Disabled: 0
+      Items:
+      - {fileID: 914620536}
+    - Name: Perks
+      TexId: 9
+      Disabled: 0
+      Items:
+      - {fileID: 1290549983}
+      - {fileID: 758441026}
+      - {fileID: 1584663659}
+      - {fileID: 182942526}
+      - {fileID: 485472971}
+      - {fileID: 1693644841}
+      - {fileID: 63627690}
+      - {fileID: 1232858278}
+      - {fileID: 58680141}
+      - {fileID: 861477064}
   WeaponPrestigeMax: 5
   PrestigeCostPerLevel: a0860100400d0300801a060060ae0a0040420f00
   VendorCostPerLevel: 401f0000e02e0000204e0000409c000060ea0000905f0100f0490200605b030030570500
@@ -9735,7 +9981,7 @@ MonoBehaviour:
   DebugEnabled: 0
   DebugPath: 0
   DebugMove: 0
-  DebugManualSpawning: 0
+  DebugManualSpawning: 1
   DebugInfiniteHealth: 1
   DebugInfiniteAmmo: 1
   DebugPayday: 1
@@ -9761,6 +10007,8 @@ Transform:
   - {fileID: 1576822124}
   - {fileID: 575187458}
   - {fileID: 804014689}
+  - {fileID: 1658455379}
+  - {fileID: 1107365709}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &57723084
@@ -10272,6 +10520,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &58680139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58680140}
+  - component: {fileID: 58680141}
+  m_Layer: 0
+  m_Name: Vampire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &58680140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58680139}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &58680141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58680139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 25
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &58868872
 GameObject:
   m_ObjectHideFlags: 0
@@ -10523,6 +10883,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &63627688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 63627689}
+  - component: {fileID: 63627690}
+  m_Layer: 0
+  m_Name: Alphamod Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &63627689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63627688}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &63627690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63627688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 23
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &64291782
 GameObject:
   m_ObjectHideFlags: 0
@@ -14666,6 +15138,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &103630520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 103630521}
+  - component: {fileID: 103630522}
+  m_Layer: 0
+  m_Name: Alphamod Jackpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &103630521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103630520}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &103630522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103630520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 5
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &105597736
 GameObject:
   m_ObjectHideFlags: 0
@@ -20280,6 +20864,112 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151980880}
   m_Mesh: {fileID: 1369657504}
+--- !u!1 &152451235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 152451236}
+  - component: {fileID: 152451237}
+  m_Layer: 0
+  m_Name: Zombie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &152451236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152451235}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1658455379}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &152451237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152451235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32132a504c77a14697d0acbfb840f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mob: 0
+  Variant: 0
+  Behavior: 0
+  Attributes: 0
+  BlipType:
+    HasOverride: 0
+    OverrideValue: 0
+  SpecialRoundOnly: 0
+  MinRound: 2
+  MaxSpawnedAtOnce: 0
+  MaxSpawnedPerRound: 0
+  Probability: 0.5
+  SpawnType: 3
+  CooldownTicks: 0
+  CooldownOffsetPerRoundFactor: 0
+  SizeMultiplier: 1
+  TurnSpeedMultiplier: 1
+  RangedAttackDistance:
+    HasOverride: 0
+    OverrideValue: 0
+  Xp:
+    HasOverride: 1
+    OverrideValue: 20
+  Bolts:
+    HasOverride: 1
+    OverrideValue: 330
+  Damage:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageMax:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Speed:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedMax:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Health:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthMax:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthScale:
+    HasOverride: 0
+    OverrideValue: 0
+  BaseColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  GlowColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  SpriteColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &153260424
 GameObject:
   m_ObjectHideFlags: 0
@@ -24887,6 +25577,118 @@ Transform:
   - {fileID: 720226911}
   m_Father: {fileID: 467776677}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &182942524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 182942525}
+  - component: {fileID: 182942526}
+  m_Layer: 0
+  m_Name: Hoverboots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &182942525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182942524}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &182942526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182942524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 20
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &183824506
 GameObject:
   m_ObjectHideFlags: 0
@@ -25364,6 +26166,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &193352443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 193352444}
+  - component: {fileID: 193352445}
+  m_Layer: 0
+  m_Name: Alphamod Impact
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &193352444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193352443}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &193352445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193352443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 2
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &194883753
 GameObject:
   m_ObjectHideFlags: 0
@@ -26347,6 +27261,118 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &203315296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203315297}
+  - component: {fileID: 203315298}
+  m_Layer: 0
+  m_Name: Vox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203315297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203315296}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &203315298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203315296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 10
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &203972928
 GameObject:
   m_ObjectHideFlags: 0
@@ -30050,7 +31076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17a2ccf71e902840ae1beca4d34117e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapVersion: 20
+  MapVersion: 21
   MapName: Torval Ruins
   MapAuthor: Dnawrkshp
   MapDescription: '\red\[HARD]\normal\
@@ -34015,6 +35041,118 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252186224}
   m_Mesh: {fileID: 1757211133}
+--- !u!1 &252978183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 252978184}
+  - component: {fileID: 252978185}
+  m_Layer: 0
+  m_Name: Alphamod Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &252978184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252978183}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &252978185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252978183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 3
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &253124704
 GameObject:
   m_ObjectHideFlags: 0
@@ -36191,6 +37329,112 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 271922520}
   m_Mesh: {fileID: 1514671192}
+--- !u!1 &272143469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272143470}
+  - component: {fileID: 272143471}
+  m_Layer: 0
+  m_Name: Executioner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272143470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272143469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1658455379}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &272143471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272143469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32132a504c77a14697d0acbfb840f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mob: 6
+  Variant: 0
+  Behavior: 2
+  Attributes: 0
+  BlipType:
+    HasOverride: 0
+    OverrideValue: 0
+  SpecialRoundOnly: 0
+  MinRound: 7
+  MaxSpawnedAtOnce: 4
+  MaxSpawnedPerRound: 0
+  Probability: 0.01
+  SpawnType: 0
+  CooldownTicks: 60
+  CooldownOffsetPerRoundFactor: -0.6
+  SizeMultiplier: 1
+  TurnSpeedMultiplier: 1
+  RangedAttackDistance:
+    HasOverride: 0
+    OverrideValue: 0
+  Xp:
+    HasOverride: 1
+    OverrideValue: 250
+  Bolts:
+    HasOverride: 1
+    OverrideValue: 990
+  Damage:
+    HasOverride: 1
+    OverrideValue: 10
+  DamageMax:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageScale:
+    HasOverride: 1
+    OverrideValue: 1.1
+  Speed:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedMax:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Health:
+    HasOverride: 1
+    OverrideValue: 60
+  HealthMax:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthScale:
+    HasOverride: 0
+    OverrideValue: 0
+  BaseColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  GlowColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  SpriteColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &274116187
 GameObject:
   m_ObjectHideFlags: 0
@@ -40778,6 +42022,122 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &303309783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 303309784}
+  - component: {fileID: 303309785}
+  m_Layer: 0
+  m_Name: Store
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &303309784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303309783}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2146407482}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &303309785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303309783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40cb6d0034e05c43877fe52543e125f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RCVersion: 4
+  Mission: -1
+  Uid: 28
+  Bolts: 0
+  OClass: 16640
+  DrawDistance: 64
+  UpdateDistance: 255
+  GroupId: -1
+  IsRooted: 0
+  RootedDistance: 0
+  PvarIndex: 0
+  Occlusion: 0
+  ModeBits: 0
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Light1: 0
+  Light2: 0
+  Light3: 0
+  PVarPointers: 
+  PVars: 29000000000000000101050302000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  PVarValues:
+    dictionaryList:
+    - Key: .Store Index
+      Value: 0
+      index: 0
+      isKeyDuplicated: 0
+    - Key: .Disable During Round
+      Value: True
+      index: 1
+      isKeyDuplicated: 0
+    - Key: .Appear On Radar
+      Value: True
+      index: 2
+      isKeyDuplicated: 0
+    - Key: .Blip Type
+      Value: 5
+      index: 3
+      isKeyDuplicated: 0
+    - Key: .Blip Color
+      Value: 3
+      index: 4
+      isKeyDuplicated: 0
+    - Key: .Interact Type
+      Value: 2
+      index: 5
+      isKeyDuplicated: 0
+    Owner: {fileID: 303309785}
+  PVarReferences:
+    dictionaryList:
+    - Key: .Bound Moby
+      Value: {fileID: 2146407481}
+      index: 0
+      isKeyDuplicated: 0
+    Owner: {fileID: 303309785}
+  PVarStrings: []
+  PrefabOverride: {fileID: 0}
+  PrefabOverrideTransformation:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &304135874
 GameObject:
   m_ObjectHideFlags: 0
@@ -49516,6 +50876,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &367937072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367937073}
+  - component: {fileID: 367937074}
+  m_Layer: 0
+  m_Name: Earthquake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &367937073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367937072}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &367937074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367937072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 46
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &368001837
 GameObject:
   m_ObjectHideFlags: 0
@@ -52187,6 +53659,118 @@ MonoBehaviour:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &397917409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 397917410}
+  - component: {fileID: 397917411}
+  m_Layer: 0
+  m_Name: Damage Upgrade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &397917410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397917409}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1338817658}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &397917411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397917409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 42
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &398823621
 GameObject:
   m_ObjectHideFlags: 0
@@ -56169,6 +57753,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &434006166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 434006167}
+  - component: {fileID: 434006168}
+  m_Layer: 0
+  m_Name: Nuke
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &434006167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434006166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1229054546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &434006168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434006166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 27
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &435162536
 GameObject:
   m_ObjectHideFlags: 0
@@ -60023,6 +61719,118 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472313989}
   m_Mesh: {fileID: 1151782587}
+--- !u!1 &472327135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472327136}
+  - component: {fileID: 472327137}
+  m_Layer: 0
+  m_Name: Double Bolts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &472327136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472327135}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1229054546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &472327137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472327135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 29
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!43 &474327556
 Mesh:
   m_ObjectHideFlags: 0
@@ -60699,6 +62507,118 @@ MonoBehaviour:
     e31: 0
     e32: 0
     e33: 0
+--- !u!1 &485472969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 485472970}
+  - component: {fileID: 485472971}
+  m_Layer: 0
+  m_Name: Alphamod Speed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &485472970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485472969}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &485472971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485472969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 21
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!43 &486920142
 Mesh:
   m_ObjectHideFlags: 0
@@ -61420,6 +63340,118 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &492099025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 492099026}
+  - component: {fileID: 492099027}
+  m_Layer: 0
+  m_Name: Shield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492099026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492099025}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &492099027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492099025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 13
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &492247945
 GameObject:
   m_ObjectHideFlags: 0
@@ -72556,6 +74588,118 @@ MonoBehaviour:
     dictionaryList: []
     Owner: {fileID: 568824779}
   PVarStrings: []
+--- !u!1 &570712568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 570712569}
+  - component: {fileID: 570712570}
+  m_Layer: 0
+  m_Name: Upgrade Equipped Weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &570712569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570712568}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &570712570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570712568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 6
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!43 &570803596
 Mesh:
   m_ObjectHideFlags: 0
@@ -77040,6 +79184,112 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604034662}
   m_Mesh: {fileID: 680126128}
+--- !u!1 &604094862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 604094863}
+  - component: {fileID: 604094864}
+  m_Layer: 0
+  m_Name: Reaper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &604094863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604094862}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1658455379}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &604094864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604094862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32132a504c77a14697d0acbfb840f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mob: 7
+  Variant: 0
+  Behavior: 0
+  Attributes: 0
+  BlipType:
+    HasOverride: 0
+    OverrideValue: 0
+  SpecialRoundOnly: 0
+  MinRound: 5
+  MaxSpawnedAtOnce: 10
+  MaxSpawnedPerRound: 0
+  Probability: 0.04
+  SpawnType: 2
+  CooldownTicks: 0
+  CooldownOffsetPerRoundFactor: 0
+  SizeMultiplier: 1
+  TurnSpeedMultiplier: 1
+  RangedAttackDistance:
+    HasOverride: 0
+    OverrideValue: 0
+  Xp:
+    HasOverride: 0
+    OverrideValue: 0
+  Bolts:
+    HasOverride: 1
+    OverrideValue: 660
+  Damage:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageMax:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Speed:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedMax:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Health:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthMax:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthScale:
+    HasOverride: 0
+    OverrideValue: 0
+  BaseColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  GlowColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  SpriteColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &605741101
 GameObject:
   m_ObjectHideFlags: 0
@@ -85807,6 +88057,112 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1675514855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &684946921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 684946922}
+  - component: {fileID: 684946923}
+  m_Layer: 0
+  m_Name: King Leviathan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &684946922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684946921}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1658455379}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &684946923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684946921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32132a504c77a14697d0acbfb840f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mob: 4
+  Variant: 1
+  Behavior: 0
+  Attributes: 0
+  BlipType:
+    HasOverride: 1
+    OverrideValue: 6
+  SpecialRoundOnly: 0
+  MinRound: 21
+  MaxSpawnedAtOnce: 1
+  MaxSpawnedPerRound: 0
+  Probability: 0.0005
+  SpawnType: 0
+  CooldownTicks: 0
+  CooldownOffsetPerRoundFactor: 0
+  SizeMultiplier: 2
+  TurnSpeedMultiplier: 1
+  RangedAttackDistance:
+    HasOverride: 0
+    OverrideValue: 0
+  Xp:
+    HasOverride: 1
+    OverrideValue: 10000
+  Bolts:
+    HasOverride: 1
+    OverrideValue: 16500
+  Damage:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageMax:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageScale:
+    HasOverride: 1
+    OverrideValue: 1.1
+  Speed:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedMax:
+    HasOverride: 1
+    OverrideValue: 12
+  SpeedScale:
+    HasOverride: 1
+    OverrideValue: 0.2
+  Health:
+    HasOverride: 1
+    OverrideValue: 600
+  HealthMax:
+    HasOverride: 1
+    OverrideValue: 1e+9
+  HealthScale:
+    HasOverride: 0
+    OverrideValue: 0
+  BaseColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  GlowColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  SpriteColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &686827288
 GameObject:
   m_ObjectHideFlags: 0
@@ -91466,6 +93822,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &745934563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 745934564}
+  - component: {fileID: 745934565}
+  m_Layer: 0
+  m_Name: Crit Upgrade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &745934564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745934563}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1338817658}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &745934565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745934563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 43
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &746714803
 GameObject:
   m_ObjectHideFlags: 0
@@ -93331,6 +95799,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &758441024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 758441025}
+  - component: {fileID: 758441026}
+  m_Layer: 0
+  m_Name: Extra Jump
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &758441025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758441024}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &758441026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758441024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 18
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &758794221
 GameObject:
   m_ObjectHideFlags: 0
@@ -104371,6 +106951,118 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846261394}
   m_Mesh: {fileID: 1021868114}
+--- !u!1 &847192398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847192399}
+  - component: {fileID: 847192400}
+  m_Layer: 0
+  m_Name: Max Ammo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &847192399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847192398}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1229054546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &847192400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847192398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 28
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &847331044
 GameObject:
   m_ObjectHideFlags: 0
@@ -105748,6 +108440,118 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &861477063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 861477065}
+  - component: {fileID: 861477064}
+  m_Layer: 0
+  m_Name: Will o Wisp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &861477064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861477063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 26
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
+--- !u!4 &861477065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861477063}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &863219109
 GameObject:
   m_ObjectHideFlags: 0
@@ -110245,6 +113049,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &901170599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 901170600}
+  - component: {fileID: 901170601}
+  m_Layer: 0
+  m_Name: Dread Token
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &901170600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901170599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &901170601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901170599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 7
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &901948355
 GameObject:
   m_ObjectHideFlags: 0
@@ -111454,6 +114370,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &914620534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 914620535}
+  - component: {fileID: 914620536}
+  m_Layer: 0
+  m_Name: Self Revive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &914620535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914620534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753504082}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &914620536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914620534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 14
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!43 &915125208
 Mesh:
   m_ObjectHideFlags: 0
@@ -116118,6 +119146,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &955086436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955086437}
+  - component: {fileID: 955086438}
+  m_Layer: 0
+  m_Name: Infinite Ammo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955086437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955086436}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &955086438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955086436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 11
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &955212704
 GameObject:
   m_ObjectHideFlags: 0
@@ -117229,6 +120369,118 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &963103505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963103506}
+  - component: {fileID: 963103507}
+  m_Layer: 0
+  m_Name: Invis Cloak
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &963103506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963103505}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963103507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963103505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 15
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &965179721
 GameObject:
   m_ObjectHideFlags: 0
@@ -132931,6 +136183,42 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &1107365708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107365709}
+  m_Layer: 0
+  m_Name: Default Items
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1107365709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107365708}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1753504082}
+  - {fileID: 1338817658}
+  - {fileID: 2138773823}
+  - {fileID: 2103678696}
+  - {fileID: 1229054546}
+  m_Father: {fileID: 57723083}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1107395360
 GameObject:
   m_ObjectHideFlags: 0
@@ -137432,6 +140720,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &1155282960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1155282961}
+  - component: {fileID: 1155282962}
+  m_Layer: 0
+  m_Name: Randomize Weapon Pickups
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1155282961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155282960}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1155282962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155282960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 9
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1157099247
 GameObject:
   m_ObjectHideFlags: 0
@@ -137835,6 +141235,112 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1161080647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1161080648}
+  - component: {fileID: 1161080649}
+  m_Layer: 0
+  m_Name: Leviathan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1161080648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161080647}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1658455379}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1161080649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161080647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32132a504c77a14697d0acbfb840f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mob: 4
+  Variant: 0
+  Behavior: 1
+  Attributes: 0
+  BlipType:
+    HasOverride: 0
+    OverrideValue: 0
+  SpecialRoundOnly: 0
+  MinRound: 11
+  MaxSpawnedAtOnce: 10
+  MaxSpawnedPerRound: 0
+  Probability: 0.025
+  SpawnType: 0
+  CooldownTicks: 60
+  CooldownOffsetPerRoundFactor: -0.6
+  SizeMultiplier: 1
+  TurnSpeedMultiplier: 1
+  RangedAttackDistance:
+    HasOverride: 0
+    OverrideValue: 0
+  Xp:
+    HasOverride: 0
+    OverrideValue: 0
+  Bolts:
+    HasOverride: 1
+    OverrideValue: 660
+  Damage:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageMax:
+    HasOverride: 0
+    OverrideValue: 0
+  DamageScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Speed:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedMax:
+    HasOverride: 0
+    OverrideValue: 0
+  SpeedScale:
+    HasOverride: 0
+    OverrideValue: 0
+  Health:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthMax:
+    HasOverride: 0
+    OverrideValue: 0
+  HealthScale:
+    HasOverride: 0
+    OverrideValue: 0
+  BaseColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  GlowColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
+  SpriteColor:
+    HasOverride: 0
+    OverrideValue: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1165383387
 GameObject:
   m_ObjectHideFlags: 0
@@ -141325,6 +144831,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &1204049617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1204049618}
+  - component: {fileID: 1204049619}
+  m_Layer: 0
+  m_Name: Health Tornado
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1204049618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204049617}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1204049619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204049617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 16
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1204304427
 GameObject:
   m_ObjectHideFlags: 0
@@ -143849,7 +147467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1218915956
 Transform:
   m_ObjectHideFlags: 0
@@ -145201,6 +148819,43 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1229054545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1229054546}
+  m_Layer: 0
+  m_Name: Drops
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1229054546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229054545}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 847192399}
+  - {fileID: 434006167}
+  - {fileID: 472327136}
+  - {fileID: 1740869825}
+  - {fileID: 1372543140}
+  - {fileID: 2115992698}
+  m_Father: {fileID: 1107365709}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1229699070
 Mesh:
   m_ObjectHideFlags: 0
@@ -145556,6 +149211,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &1232858276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1232858277}
+  - component: {fileID: 1232858278}
+  m_Layer: 0
+  m_Name: Alphamod Ammo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1232858277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232858276}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1232858278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232858276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 24
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1233198565
 GameObject:
   m_ObjectHideFlags: 0
@@ -150646,6 +154413,118 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1290549981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1290549982}
+  - component: {fileID: 1290549983}
+  m_Layer: 0
+  m_Name: Berserker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1290549982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290549981}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1290549983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290549981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 17
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1290837822
 GameObject:
   m_ObjectHideFlags: 0
@@ -150772,6 +154651,118 @@ MonoBehaviour:
   Ray2: {fileID: 1551766677}
   Intensity2: 0.1
   Color2: {r: 0.2627451, g: 0.27450982, b: 0.27450982, a: 1}
+--- !u!1 &1293116002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293116003}
+  - component: {fileID: 1293116004}
+  m_Layer: 0
+  m_Name: Alphamod Ammo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293116003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293116002}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1293116004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293116002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 1
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1293717085
 GameObject:
   m_ObjectHideFlags: 0
@@ -154645,6 +158636,41 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1338817657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1338817658}
+  m_Layer: 0
+  m_Name: Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1338817658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338817657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1406251511}
+  - {fileID: 1950676138}
+  - {fileID: 397917410}
+  - {fileID: 745934564}
+  m_Father: {fileID: 1107365709}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1342541174
 GameObject:
   m_ObjectHideFlags: 0
@@ -159098,7 +163124,7 @@ MonoBehaviour:
   Light2: 4
   Light3: 0
   PVarPointers: 
-  PVars: 
+  PVars: 00000000
   PVarValues:
     dictionaryList: []
     Owner: {fileID: 1369072598}
@@ -159479,6 +163505,118 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1372543139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1372543140}
+  - component: {fileID: 1372543141}
+  m_Layer: 0
+  m_Name: Freeze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1372543140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372543139}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1229054546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1372543141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372543139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 31
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1373972806
 GameObject:
   m_ObjectHideFlags: 0
@@ -164208,6 +168346,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &1406251510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1406251511}
+  - component: {fileID: 1406251512}
+  m_Layer: 0
+  m_Name: Speed Upgrade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1406251511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406251510}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1338817658}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1406251512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406251510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 41
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!43 &1408546433
 Mesh:
   m_ObjectHideFlags: 0
@@ -183890,6 +188140,118 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1584663657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1584663658}
+  - component: {fileID: 1584663659}
+  m_Layer: 0
+  m_Name: Double Shot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1584663658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584663657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1584663659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584663657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 19
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!43 &1585043128
 Mesh:
   m_ObjectHideFlags: 0
@@ -194056,6 +198418,44 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1656636674}
   m_Mesh: {fileID: 1831941906}
+--- !u!1 &1658455378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1658455379}
+  m_Layer: 0
+  m_Name: Mobs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1658455379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658455378}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 41213133}
+  - {fileID: 684946922}
+  - {fileID: 272143470}
+  - {fileID: 1161080648}
+  - {fileID: 604094863}
+  - {fileID: 152451236}
+  - {fileID: 51042919}
+  m_Father: {fileID: 57723083}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1659122025
 GameObject:
   m_ObjectHideFlags: 0
@@ -194817,6 +199217,118 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1667279835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1667279836}
+  - component: {fileID: 1667279837}
+  m_Layer: 0
+  m_Name: Alphamod Speed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1667279836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667279835}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1667279837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667279835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 0
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1669039517
 GameObject:
   m_ObjectHideFlags: 0
@@ -199431,6 +203943,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &1693644839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1693644840}
+  - component: {fileID: 1693644841}
+  m_Layer: 0
+  m_Name: Alphamod Impact
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1693644840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693644839}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2103678696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1693644841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693644839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 22
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1693901362
 GameObject:
   m_ObjectHideFlags: 0
@@ -200668,6 +205292,118 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1706443221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1706443222}
+  - component: {fileID: 1706443223}
+  m_Layer: 0
+  m_Name: PDA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1706443222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706443221}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753504082}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1706443223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706443221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 45
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1707163797
 GameObject:
   m_ObjectHideFlags: 0
@@ -204477,6 +209213,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &1740869824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1740869825}
+  - component: {fileID: 1740869826}
+  m_Layer: 0
+  m_Name: Double Xp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1740869825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740869824}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1229054546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1740869826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740869824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 30
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!43 &1742281918
 Mesh:
   m_ObjectHideFlags: 0
@@ -206247,6 +211095,39 @@ MonoBehaviour:
   Ray2: {fileID: 615367708}
   Intensity2: 0.1
   Color2: {r: 0.37254903, g: 0.35686275, b: 0.34117648, a: 1}
+--- !u!1 &1753504081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753504082}
+  m_Layer: 0
+  m_Name: Store
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1753504082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753504081}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 914620535}
+  - {fileID: 1706443222}
+  m_Father: {fileID: 1107365709}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1754385201
 Mesh:
   m_ObjectHideFlags: 0
@@ -215179,6 +220060,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &1818040701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818040702}
+  - component: {fileID: 1818040703}
+  m_Layer: 0
+  m_Name: Alphamod Xp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818040702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818040701}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1818040703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818040701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 4
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1819807349
 GameObject:
   m_ObjectHideFlags: 0
@@ -231631,6 +236624,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &1950676137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1950676138}
+  - component: {fileID: 1950676139}
+  m_Layer: 0
+  m_Name: Health Upgrade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1950676138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950676137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1338817658}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1950676139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950676137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 44
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &1951920113
 GameObject:
   m_ObjectHideFlags: 0
@@ -240502,6 +245607,118 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025790561}
   m_Mesh: {fileID: 881792423}
+--- !u!1 &2026072692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2026072693}
+  - component: {fileID: 2026072694}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2026072693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026072692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138773823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2026072694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026072692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 12
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!43 &2026805623
 Mesh:
   m_ObjectHideFlags: 0
@@ -249588,6 +254805,48 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &2103678695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2103678696}
+  m_Layer: 0
+  m_Name: Perks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2103678696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103678695}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1290549982}
+  - {fileID: 758441025}
+  - {fileID: 1584663658}
+  - {fileID: 182942525}
+  - {fileID: 485472970}
+  - {fileID: 1693644840}
+  - {fileID: 63627689}
+  - {fileID: 1232858277}
+  - {fileID: 58680140}
+  - {fileID: 861477065}
+  - {fileID: 367937073}
+  m_Father: {fileID: 1107365709}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2104526526
 Mesh:
   m_ObjectHideFlags: 0
@@ -250953,6 +256212,118 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &2115992697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2115992698}
+  - component: {fileID: 2115992699}
+  m_Layer: 0
+  m_Name: Health
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2115992698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115992697}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1229054546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2115992699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115992697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98c2b16c3b55bc4095b83b5b83a6256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsCustomItem: 0
+  DefaultItemOverrides:
+    Name: 
+    Item: 32
+    MaxHeldAtOnce:
+      HasOverride: 0
+      OverrideValue: 0
+    AppearOnWall:
+      HasOverride: 0
+      OverrideValue: 0
+    ConsumeCooldown:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostType:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCost:
+      HasOverride: 0
+      OverrideValue: 0
+    StoreCostIncrease:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    MysteryboxForceAcquire:
+      HasOverride: 0
+      OverrideValue: 0
+    DropChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+    VendorRewardChanceWeight:
+      HasOverride: 0
+      OverrideValue: 0
+  CustomItem:
+    Name: 
+    Description: 
+    Type: 0
+    MaxHeldAtOnce: 0
+    AppearOnWall: 0
+    ConsumeCooldown: 0
+    TexId: 0
+    TexColor: {r: 1, g: 1, b: 1, a: 1}
+    SpriteDefOverride:
+      m_Texture: {fileID: 0}
+      m_Bank: 0
+      m_Uid: 0
+      m_Unknown: 1
+      m_TextureSizeOverride: 0
+    StoreCostType: 0
+    StoreCost: 0
+    StoreCostIncrease: 0
+    MysteryboxChanceWeight: 0
+    MysteryboxForceAcquire: 0
+    DropChanceWeight: 0
+    VendorRewardChanceWeight: 0
+    CustomInitFunctionName: 
+    CustomTickUpdateFunctionName: 
+    CustomDrawUpdateFunctionName: 
+    CustomOnAcquiredFunctionName: 
+    CustomOnConsumedFunctionName: 
+    CustomGetConsumeCooldownTicksFunctionName: 
+    CustomHasRoomForMoreFunctionName: 
+    CustomCanBuyInStoreFunctionName: 
+    CustomGetStoreCostFunctionName: 
+    CustomGetMysteryboxChanceFunctionName: 
+    CustomGetDropChanceFunctionName: 
+    CustomGetVendorRewardChanceFunctionName: 
 --- !u!1 &2116816920
 GameObject:
   m_ObjectHideFlags: 0
@@ -253457,6 +258828,52 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &2138773822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2138773823}
+  m_Layer: 0
+  m_Name: Mbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2138773823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138773822}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2026072693}
+  - {fileID: 492099026}
+  - {fileID: 955086437}
+  - {fileID: 963103506}
+  - {fileID: 1204049618}
+  - {fileID: 1155282961}
+  - {fileID: 570712569}
+  - {fileID: 203315297}
+  - {fileID: 901170600}
+  - {fileID: 1667279836}
+  - {fileID: 252978184}
+  - {fileID: 193352444}
+  - {fileID: 1293116003}
+  - {fileID: 103630521}
+  - {fileID: 1818040702}
+  m_Father: {fileID: 1107365709}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2139165746
 Mesh:
   m_ObjectHideFlags: 0
@@ -254242,6 +259659,95 @@ MonoBehaviour:
   RenderInstancedCollider: 0
   InstancedColliderIdOverrides: []
   InstancedColliderOverride: {fileID: 0}
+--- !u!1 &2146407480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2146407482}
+  - component: {fileID: 2146407481}
+  m_Layer: 0
+  m_Name: 9930
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2146407481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146407480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40cb6d0034e05c43877fe52543e125f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RCVersion: 4
+  Mission: -1
+  Uid: 29
+  Bolts: 0
+  OClass: 9930
+  DrawDistance: 64
+  UpdateDistance: 64
+  GroupId: -1
+  IsRooted: 0
+  RootedDistance: 0
+  PvarIndex: 0
+  Occlusion: 0
+  ModeBits: 0
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Light1: 0
+  Light2: 0
+  Light3: 0
+  PVarPointers: 
+  PVars: 
+  PVarValues:
+    dictionaryList: []
+    Owner: {fileID: 2146407481}
+  PVarReferences:
+    dictionaryList: []
+    Owner: {fileID: 2146407481}
+  PVarStrings: []
+  PrefabOverride: {fileID: 0}
+  PrefabOverrideTransformation:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!4 &2146407482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146407480}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 300.73996, y: 105.98985, z: 371.41995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 303309784}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2146832393
 GameObject:
   m_ObjectHideFlags: 0
@@ -254327,3 +259833,4 @@ SceneRoots:
   - {fileID: 626617951}
   - {fileID: 1218915956}
   - {fileID: 1089768303}
+  - {fileID: 2146407482}
