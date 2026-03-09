@@ -9264,456 +9264,6 @@ MonoBehaviour:
   MobAllowedArea: {fileID: 575187457}
   MobSpawnPoints: {fileID: 804014688}
   ReactorMinionMobName: 
-  Mobs:
-  - Name: Reactor
-    Disabled: 0
-    Mob: 9
-    Variant: 0
-    Behavior: 0
-    Attributes: 0
-    BlipType:
-      HasOverride: 0
-      OverrideValue: 0
-    SpecialRoundOnly: 0
-    MinRound: 16
-    MaxSpawnedAtOnce: 1
-    MaxSpawnedPerRound: 0
-    Probability: 0.0005
-    SpawnType: 0
-    CooldownTicks: 0
-    CooldownOffsetPerRoundFactor: 0
-    SizeMultiplier: 1
-    TurnSpeedMultiplier: 1
-    RangedAttackDistance:
-      HasOverride: 0
-      OverrideValue: 0
-    Xp:
-      HasOverride: 1
-      OverrideValue: 10000
-    Bolts:
-      HasOverride: 1
-      OverrideValue: 16500
-    Damage:
-      HasOverride: 1
-      OverrideValue: 12
-    DamageMax:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageScale:
-      HasOverride: 1
-      OverrideValue: 1.1
-    Speed:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedMax:
-      HasOverride: 1
-      OverrideValue: 9
-    SpeedScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Health:
-      HasOverride: 1
-      OverrideValue: 300
-    HealthMax:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthScale:
-      HasOverride: 0
-      OverrideValue: 0
-    BaseColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    GlowColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    SpriteColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-  - Name: King Leviathan
-    Disabled: 0
-    Mob: 4
-    Variant: 1
-    Behavior: 0
-    Attributes: 0
-    BlipType:
-      HasOverride: 1
-      OverrideValue: 6
-    SpecialRoundOnly: 0
-    MinRound: 21
-    MaxSpawnedAtOnce: 1
-    MaxSpawnedPerRound: 0
-    Probability: 0.0005
-    SpawnType: 0
-    CooldownTicks: 0
-    CooldownOffsetPerRoundFactor: 0
-    SizeMultiplier: 2
-    TurnSpeedMultiplier: 1
-    RangedAttackDistance:
-      HasOverride: 0
-      OverrideValue: 0
-    Xp:
-      HasOverride: 1
-      OverrideValue: 10000
-    Bolts:
-      HasOverride: 1
-      OverrideValue: 16500
-    Damage:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageMax:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageScale:
-      HasOverride: 1
-      OverrideValue: 1.1
-    Speed:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedMax:
-      HasOverride: 1
-      OverrideValue: 12
-    SpeedScale:
-      HasOverride: 1
-      OverrideValue: 0.2
-    Health:
-      HasOverride: 1
-      OverrideValue: 600
-    HealthMax:
-      HasOverride: 1
-      OverrideValue: 1e+9
-    HealthScale:
-      HasOverride: 0
-      OverrideValue: 0
-    BaseColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    GlowColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    SpriteColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-  - Name: Executioner
-    Disabled: 0
-    Mob: 6
-    Variant: 0
-    Behavior: 2
-    Attributes: 0
-    BlipType:
-      HasOverride: 0
-      OverrideValue: 0
-    SpecialRoundOnly: 0
-    MinRound: 7
-    MaxSpawnedAtOnce: 4
-    MaxSpawnedPerRound: 0
-    Probability: 0.01
-    SpawnType: 0
-    CooldownTicks: 60
-    CooldownOffsetPerRoundFactor: -0.6
-    SizeMultiplier: 1
-    TurnSpeedMultiplier: 1
-    RangedAttackDistance:
-      HasOverride: 0
-      OverrideValue: 0
-    Xp:
-      HasOverride: 1
-      OverrideValue: 250
-    Bolts:
-      HasOverride: 1
-      OverrideValue: 990
-    Damage:
-      HasOverride: 1
-      OverrideValue: 10
-    DamageMax:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageScale:
-      HasOverride: 1
-      OverrideValue: 1.1
-    Speed:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedMax:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Health:
-      HasOverride: 1
-      OverrideValue: 60
-    HealthMax:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthScale:
-      HasOverride: 0
-      OverrideValue: 0
-    BaseColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    GlowColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    SpriteColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-  - Name: Leviathan
-    Disabled: 0
-    Mob: 4
-    Variant: 0
-    Behavior: 1
-    Attributes: 0
-    BlipType:
-      HasOverride: 0
-      OverrideValue: 0
-    SpecialRoundOnly: 0
-    MinRound: 11
-    MaxSpawnedAtOnce: 10
-    MaxSpawnedPerRound: 0
-    Probability: 0.025
-    SpawnType: 0
-    CooldownTicks: 60
-    CooldownOffsetPerRoundFactor: -0.6
-    SizeMultiplier: 1
-    TurnSpeedMultiplier: 1
-    RangedAttackDistance:
-      HasOverride: 0
-      OverrideValue: 0
-    Xp:
-      HasOverride: 0
-      OverrideValue: 0
-    Bolts:
-      HasOverride: 1
-      OverrideValue: 660
-    Damage:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageMax:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Speed:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedMax:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Health:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthMax:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthScale:
-      HasOverride: 0
-      OverrideValue: 0
-    BaseColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    GlowColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    SpriteColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-  - Name: Reaper
-    Disabled: 0
-    Mob: 7
-    Variant: 0
-    Behavior: 0
-    Attributes: 0
-    BlipType:
-      HasOverride: 0
-      OverrideValue: 0
-    SpecialRoundOnly: 0
-    MinRound: 5
-    MaxSpawnedAtOnce: 10
-    MaxSpawnedPerRound: 0
-    Probability: 0.04
-    SpawnType: 2
-    CooldownTicks: 0
-    CooldownOffsetPerRoundFactor: 0
-    SizeMultiplier: 1
-    TurnSpeedMultiplier: 1
-    RangedAttackDistance:
-      HasOverride: 0
-      OverrideValue: 0
-    Xp:
-      HasOverride: 0
-      OverrideValue: 0
-    Bolts:
-      HasOverride: 1
-      OverrideValue: 660
-    Damage:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageMax:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Speed:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedMax:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Health:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthMax:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthScale:
-      HasOverride: 0
-      OverrideValue: 0
-    BaseColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    GlowColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    SpriteColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-  - Name: Zombie
-    Disabled: 0
-    Mob: 0
-    Variant: 0
-    Behavior: 0
-    Attributes: 0
-    BlipType:
-      HasOverride: 0
-      OverrideValue: 0
-    SpecialRoundOnly: 0
-    MinRound: 2
-    MaxSpawnedAtOnce: 0
-    MaxSpawnedPerRound: 0
-    Probability: 0.5
-    SpawnType: 3
-    CooldownTicks: 0
-    CooldownOffsetPerRoundFactor: 0
-    SizeMultiplier: 1
-    TurnSpeedMultiplier: 1
-    RangedAttackDistance:
-      HasOverride: 0
-      OverrideValue: 0
-    Xp:
-      HasOverride: 1
-      OverrideValue: 20
-    Bolts:
-      HasOverride: 1
-      OverrideValue: 330
-    Damage:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageMax:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Speed:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedMax:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Health:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthMax:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthScale:
-      HasOverride: 0
-      OverrideValue: 0
-    BaseColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    GlowColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    SpriteColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-  - Name: Swarmer
-    Disabled: 0
-    Mob: 1
-    Variant: 0
-    Behavior: 0
-    Attributes: 0
-    BlipType:
-      HasOverride: 0
-      OverrideValue: 0
-    SpecialRoundOnly: 0
-    MinRound: 0
-    MaxSpawnedAtOnce: 0
-    MaxSpawnedPerRound: 0
-    Probability: 1
-    SpawnType: 3
-    CooldownTicks: 0
-    CooldownOffsetPerRoundFactor: 0
-    SizeMultiplier: 1
-    TurnSpeedMultiplier: 1
-    RangedAttackDistance:
-      HasOverride: 0
-      OverrideValue: 0
-    Xp:
-      HasOverride: 1
-      OverrideValue: 10
-    Bolts:
-      HasOverride: 1
-      OverrideValue: 165
-    Damage:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageMax:
-      HasOverride: 0
-      OverrideValue: 0
-    DamageScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Speed:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedMax:
-      HasOverride: 0
-      OverrideValue: 0
-    SpeedScale:
-      HasOverride: 0
-      OverrideValue: 0
-    Health:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthMax:
-      HasOverride: 0
-      OverrideValue: 0
-    HealthScale:
-      HasOverride: 0
-      OverrideValue: 0
-    BaseColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    GlowColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-    SpriteColor:
-      HasOverride: 0
-      OverrideValue: {r: 0, g: 0, b: 0, a: 0}
-  SpecialRounds: []
   Gambits:
   - Name: Easy Mode
     Description: Complete 100 rounds with reduced difficulty scaling and increased
@@ -9896,53 +9446,6 @@ MonoBehaviour:
     CustomInitFunctionName: gambitVampireInit
     CustomTickFunctionName: 
     CustomOnRoundCompleteFunctionName: 
-  EnableStackables: 1
-  StackableBaseCost: 250000
-  StackableIncrementCost: 250000
-  Stackables:
-  - Type: 0
-    Max: 0
-  - Type: 1
-    Max: 0
-  - Type: 2
-    Max: 0
-  - Type: 3
-    Max: 0
-  - Type: 4
-    Max: 10
-  - Type: 5
-    Max: 5
-  - Type: 6
-    Max: 5
-  - Type: 7
-    Max: 0
-  - Type: 8
-    Max: 0
-  - Type: 9
-    Max: 0
-  MysteryboxItems:
-  - Item: 9
-    Probability: 0.05
-  - Item: 10
-    Probability: 0.05
-  - Item: 4
-    Probability: 0.05
-  - Item: 12
-    Probability: 0.05
-  - Item: 11
-    Probability: 0.05
-  - Item: 5
-    Probability: 0.05
-  - Item: 6
-    Probability: 0.05
-  - Item: 2
-    Probability: 0.09
-  - Item: 8
-    Probability: 0.1
-  - Item: 3
-    Probability: 0.3
-  - Item: 0
-    Probability: 1
   Stores:
   - Name: Store
     Disabled: 0
@@ -9969,23 +9472,15 @@ MonoBehaviour:
   WeaponPrestigeMax: 5
   PrestigeCostPerLevel: a0860100400d0300801a060060ae0a0040420f00
   VendorCostPerLevel: 401f0000e02e0000204e0000409c000060ea0000905f0100f0490200605b030030570500
-  Upgrades:
-  - Type: 0
-    Max: 1000
-  - Type: 2
-    Max: 1000
-  - Type: 3
-    Max: 100
-  - Type: 1
-    Max: 40
   DebugEnabled: 0
   DebugPath: 0
   DebugMove: 0
-  DebugManualSpawning: 1
+  DebugManualSpawning: 0
   DebugInfiniteHealth: 1
   DebugInfiniteAmmo: 1
   DebugPayday: 1
   DebugMoonjump: 1
+  DebugInfinitePostRoundTime: 1
   DebugStartRound: 0
 --- !u!4 &57723083
 Transform:
@@ -10595,6 +10090,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -10619,6 +10117,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -10958,6 +10457,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -10982,6 +10484,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -15213,6 +14716,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -15237,6 +14743,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -25652,6 +25159,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -25676,6 +25186,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -26241,6 +25752,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -26265,6 +25779,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -27336,6 +26851,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -27360,6 +26878,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -31076,7 +30595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17a2ccf71e902840ae1beca4d34117e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapVersion: 21
+  MapVersion: 28
   MapName: Torval Ruins
   MapAuthor: Dnawrkshp
   MapDescription: '\red\[HARD]\normal\
@@ -35116,6 +34635,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -35140,6 +34662,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -50951,6 +50474,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -50975,6 +50501,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -53734,6 +53261,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -53758,6 +53288,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -57828,6 +57359,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -57852,6 +57386,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -61794,6 +61329,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -61818,6 +61356,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -62582,6 +62121,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -62606,6 +62148,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -63415,6 +62958,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -63439,6 +62985,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -74663,6 +74210,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -74687,6 +74237,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -93897,6 +93448,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -93921,6 +93475,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -95874,6 +95429,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -95898,6 +95456,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -107026,6 +106585,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -107050,6 +106612,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -108500,6 +108063,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -108524,6 +108090,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -113124,6 +112691,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -113148,6 +112718,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -114445,6 +114016,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -114469,6 +114043,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -119221,6 +118796,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -119245,6 +118823,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -120444,6 +120023,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -120468,6 +120050,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -140795,6 +140378,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -140819,6 +140405,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -144906,6 +144493,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -144930,6 +144520,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -149286,6 +148877,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -149310,6 +148904,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -154488,6 +154083,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -154512,6 +154110,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -154726,6 +154325,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -154750,6 +154352,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -163126,7 +162729,11 @@ MonoBehaviour:
   PVarPointers: 
   PVars: 00000000
   PVarValues:
-    dictionaryList: []
+    dictionaryList:
+    - Key: .Default State
+      Value: 0
+      index: 0
+      isKeyDuplicated: 0
     Owner: {fileID: 1369072598}
   PVarReferences:
     dictionaryList: []
@@ -163580,6 +163187,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -163604,6 +163214,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -168421,6 +168032,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -168445,6 +168059,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -188215,6 +187830,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -188239,6 +187857,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -199292,6 +198911,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -199316,6 +198938,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -204018,6 +203641,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -204042,6 +203668,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -205367,6 +204994,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -205391,6 +205021,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -209288,6 +208919,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -209312,6 +208946,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -220135,6 +219770,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -220159,6 +219797,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -236699,6 +236338,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -236723,6 +236365,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -245682,6 +245325,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -245706,6 +245352,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
@@ -256287,6 +255934,9 @@ MonoBehaviour:
     DropChanceWeight:
       HasOverride: 0
       OverrideValue: 0
+    DropPickupByAnyPlayer:
+      HasOverride: 0
+      OverrideValue: 0
     VendorRewardChanceWeight:
       HasOverride: 0
       OverrideValue: 0
@@ -256311,6 +255961,7 @@ MonoBehaviour:
     MysteryboxChanceWeight: 0
     MysteryboxForceAcquire: 0
     DropChanceWeight: 0
+    DropPickupByAnyPlayer: 0
     VendorRewardChanceWeight: 0
     CustomInitFunctionName: 
     CustomTickUpdateFunctionName: 
