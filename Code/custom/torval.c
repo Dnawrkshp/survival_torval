@@ -1,7 +1,7 @@
 #include <libdl/player.h>
 #include <libdl/utils.h>
 #include "utils.h"
-#include "shared.h"
+#include "mobs/mob.h"
 
 //--------------------------------------------------------------------------
 void gambitsWeaponLifeHookAfterDecHitPoints(Player *player)
