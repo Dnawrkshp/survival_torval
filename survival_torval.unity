@@ -9734,6 +9734,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7581ed5df5210f499e7b3548ce5b8ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CheckpointEnabled: 1
+  GateEnabled: 1
+  MessagerEnabled: 1
+  MoverEnabled: 1
+  PlatformEnabled: 1
+  ControllerEnabled: 1
+  LaserbeamEnabled: 1
+  LaserEnabled: 1
+  PvarPokeEnabled: 1
+  HackerorbEnabled: 1
+  RadarBlipEnabled: 1
+  HealthProxyEnabled: 1
+  LaunchStreamEnabled: 1
+  HoldableProxyEnabled: 1
+  SoulCollectorEnabled: 1
 --- !u!1 &57971343
 GameObject:
   m_ObjectHideFlags: 0
@@ -30892,7 +30907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17a2ccf71e902840ae1beca4d34117e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapVersion: 31
+  MapVersion: 32
   MapName: Torval Ruins
   MapAuthor: Dnawrkshp
   MapDescription: '\red\[HARD]\normal\
