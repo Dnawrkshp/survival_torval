@@ -9714,9 +9714,12 @@ MonoBehaviour:
   Defines: []
   Files:
   - {fileID: 102900000, guid: 578c5bc6e8c7e96458e36755dfd490a4, type: 3}
+  LoadFunctionName: 
   InitFunctionName: 
   CleanupFunctionName: 
+  StartFunctionName: 
   TickFunctionName: 
+  DrawFunctionName: 
   WaitForClientsReady: 0
   Metas: []
 --- !u!114 &57723085
@@ -30889,7 +30892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17a2ccf71e902840ae1beca4d34117e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapVersion: 30
+  MapVersion: 31
   MapName: Torval Ruins
   MapAuthor: Dnawrkshp
   MapDescription: '\red\[HARD]\normal\
